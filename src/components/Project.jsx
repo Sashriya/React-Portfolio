@@ -1,5 +1,10 @@
 import React from 'react'
 import ChatBot from '../assets/chatbot.png'
+import Hope from '../assets/hopefoundation.png'
+import Eye from '../assets/eyecursor.png'
+import Vendor from '../assets/vendorconnect.png'
+import Mentor from '../assets/menterhub.png'
+import Eco from '../assets/ecoplastic.png'
 import {motion as Motion} from 'framer-motion'
 
 function Project() {
@@ -28,16 +33,48 @@ function Project() {
             <div className='flex flex-col w-[350px] border border-gray-100 rounded-2xl p-5 hover:scale-105 transition-transform duration-300 bg-[#0f172a]'>
               <img
                 className='h-[250px] w-full object-contain border border-gray-100 rounded-2xl p-2'
-                src={ChatBot}
-                alt='Chatbot project'
+                src={Vendor}
+                alt='Vendor project'
               />
               <div>
                 <p className='p-4 font-semibold mt-2 text-gray-200'>
-                  An AI Chatbot built with Python that interacts with you
-                  friendly using local slang.
+                  Vendor Connect - A web application that connects local vendors
+                  with customers in their area.
                 </p>
                 <button className='bg-sky-700 p-2 m-3 rounded-md text-white hover:bg-sky-600'>
-                  View Project
+                  <a href="https://vender-connect.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</a>
+                </button>
+              </div>
+            </div>
+            <div className='flex flex-col w-[350px] border border-gray-100 rounded-2xl p-5 hover:scale-105 transition-transform duration-300 bg-[#0f172a]'>
+              <img
+                className='h-[250px] w-full object-contain border border-gray-100 rounded-2xl p-2'
+                src={Mentor}
+                alt='Mentor Hub project'
+              />
+              <div>
+                <p className='p-4 font-semibold mt-2 text-gray-200'>
+                  Mentor Hub - A platform that connects students with mentors
+                  for guidance and support.
+                </p>
+                <button className='bg-sky-700 p-2 m-3 rounded-md text-white hover:bg-sky-600'>
+                  <a href="https://github.com/Sashriya/MentorHub" target="_blank" rel="noopener noreferrer">View Project</a>
+                </button>
+              </div>
+            </div>
+            <div className='flex flex-col w-[350px] border border-gray-100 rounded-2xl p-5 hover:scale-105 transition-transform duration-300 bg-[#0f172a]'>
+              <img
+                className='h-[250px] w-full object-contain border border-gray-100 rounded-2xl p-2'
+                src={Eco}
+                alt='Eco Plastic Innovators project'
+              />
+              <div>
+                <p className='p-4 font-semibold mt-2 text-gray-200'>
+                  Eco Plastic Innovators - A project focused on recycling plastic waste
+                  and promoting sustainable practices in homes.
+                </p>
+                <button className='bg-sky-700 p-2 m-3 rounded-md text-white hover:bg-sky-600'>
+                  <a href="https://eco-plastic-innovators.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</a>
                 </button>
               </div>
             </div>
@@ -49,11 +86,27 @@ function Project() {
               />
               <div>
                 <p className='p-4 font-semibold mt-2 text-gray-200'>
-                  An AI Chatbot built with Python that interacts with you
-                  friendly using local slang.
+                  MR. Mechano - An AI Chatbot built with Python that interacts
+                  with you friendly using local slang.
                 </p>
                 <button className='bg-sky-700 p-2 m-3 rounded-md text-white hover:bg-sky-600'>
-                  View Project
+                  <a href="https://github.com/Sashriya/Mr.Mechano" target="_blank" rel="noopener noreferrer">View Project</a>
+                </button>
+              </div>
+            </div>
+            <div className='flex flex-col w-[350px] border border-gray-100 rounded-2xl p-5 hover:scale-105 transition-transform duration-300 bg-[#0f172a]'>
+              <img
+                className='h-[250px] w-full object-contain border border-gray-100 rounded-2xl p-2'
+                src={Hope}
+                alt='Hope Foundation project'
+              />
+              <div>
+                <p className='p-4 font-semibold mt-2 text-gray-200'>
+                  Hope Foundation - A non-profit organization dedicated to
+                  helping underprivileged children.
+                </p>
+                <button className='bg-sky-700 p-2 m-3 rounded-md text-white hover:bg-sky-600'>
+                  <a href="https://hopefoundations.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</a>
                 </button>
               </div>
             </div>
@@ -61,24 +114,29 @@ function Project() {
             <div className='flex flex-col w-[350px] border border-gray-100 rounded-2xl p-5 hover:scale-105 transition-transform duration-300'>
               <img
                 className='h-[250px] w-full object-contain border border-gray-100 rounded-2xl p-2'
-                src={ChatBot}
-                alt='Chatbot project'
+                src={Eye}
+                alt='Eye Cursor project'
               />
               <div>
                 <p className='p-4 font-semibold mt-2 text-gray-200'>
-                  An AI Chatbot built with Python that interacts with you
-                  friendly using local slang.
+                  Eye Cursor - A web application that helps users navigate
+                  their devices using eye movements.
                 </p>
                 <button className='bg-sky-700 p-2 m-3 rounded-md text-white hover:bg-sky-600'>
-                  View Project
+                  <a href="https://github.com/Sashriya/DhoorDarshan" target="_blank" rel="noopener noreferrer">View Project</a>
                 </button>
               </div>
             </div>
           </Motion.div>
         </div>
+        <div className='flex justify-center items-center'>
+          <button className='bg-sky-700 p-3 rounded-lg mt-10 text-xl font-semibold'><a href="https://github.com/Sashriya/" target="_blank" rel="noopener noreferrer">Explore Github</a></button>
+        </div>
       </section>
     </div>
   )
 }
+
+
 
 export default Project
